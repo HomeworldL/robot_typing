@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="keyboard_1">
+  <default>
+    <default class="visual">
+      <geom group="2" type="mesh" contype="0" conaffinity="0"/>
+    </default>
+    <default class="collision">
+      <geom group="3" type="mesh"/>
+    </default>
+  </default>
+  <asset>
+    <material name="BLACK" specular="0.5" shininess="0.25" rgba="0.000000 0.000000 0.000000 1.000000"/>
+    <material name="DARKORANGE2" specular="0.5" shininess="0.25" rgba="0.723055 0.201556 0.004777 1.000000"/>
+    <material name="GRAY2" specular="0.5" shininess="0.25" rgba="0.001518 0.001518 0.001518 1.000000"/>
+    <material name="GRAY38" specular="0.5" shininess="0.25" rgba="0.102242 0.122139 0.132868 1.000000"/>
+    <material name="GRAY50" specular="0.5" shininess="0.25" rgba="0.215861 0.215861 0.215861 1.000000"/>
+    <material name="GRAY61" specular="0.5" shininess="0.25" rgba="0.327778 0.327778 0.327778 1.000000"/>
+    <material name="GRAY94" specular="0.5" shininess="0.25" rgba="0.838799 0.879622 0.863157 1.000000"/>
+    <material name="MATRAGRAY" specular="0.5" shininess="0.25" rgba="0.318547 0.318547 0.318547 1.000000"/>
+    <material name="WHITESMOKE" specular="0.5" shininess="0.25" rgba="0.904661 0.904661 0.904661 1.000000"/>
+    <material name="YELLOW" specular="0.5" shininess="0.25" rgba="1.000000 1.000000 0.000000 1.000000"/>
+    <mesh file="keyboard_1_0.obj"/>
+    <mesh file="keyboard_1_1.obj"/>
+    <mesh file="keyboard_1_2.obj"/>
+    <mesh file="keyboard_1_3.obj"/>
+    <mesh file="keyboard_1_4.obj"/>
+    <mesh file="keyboard_1_5.obj"/>
+    <mesh file="keyboard_1_6.obj"/>
+    <mesh file="keyboard_1_7.obj"/>
+    <mesh file="keyboard_1_8.obj"/>
+    <mesh file="keyboard_1_9.obj"/>
+    <mesh file="keyboard_1_collision_0.obj"/>
+    <mesh file="keyboard_1_collision_1.obj"/>
+    <mesh file="keyboard_1_collision_2.obj"/>
+    <mesh file="keyboard_1_collision_3.obj"/>
+    <mesh file="keyboard_1_collision_4.obj"/>
+    <mesh file="keyboard_1_collision_5.obj"/>
+    <mesh file="keyboard_1_collision_6.obj"/>
+    <mesh file="keyboard_1_collision_7.obj"/>
+    <mesh file="keyboard_1_collision_8.obj"/>
+    <mesh file="keyboard_1_collision_9.obj"/>
+    <mesh file="keyboard_1_collision_10.obj"/>
+    <mesh file="keyboard_1_collision_11.obj"/>
+    <mesh file="keyboard_1_collision_12.obj"/>
+    <mesh file="keyboard_1_collision_13.obj"/>
+    <mesh file="keyboard_1_collision_14.obj"/>
+    <mesh file="keyboard_1_collision_15.obj"/>
+    <mesh file="keyboard_1_collision_16.obj"/>
+    <mesh file="keyboard_1_collision_17.obj"/>
+    <mesh file="keyboard_1_collision_18.obj"/>
+    <mesh file="keyboard_1_collision_19.obj"/>
+    <mesh file="keyboard_1_collision_20.obj"/>
+    <mesh file="keyboard_1_collision_21.obj"/>
+    <mesh file="keyboard_1_collision_22.obj"/>
+    <mesh file="keyboard_1_collision_23.obj"/>
+    <mesh file="keyboard_1_collision_24.obj"/>
+    <mesh file="keyboard_1_collision_25.obj"/>
+    <mesh file="keyboard_1_collision_26.obj"/>
+    <mesh file="keyboard_1_collision_27.obj"/>
+    <mesh file="keyboard_1_collision_28.obj"/>
+    <mesh file="keyboard_1_collision_29.obj"/>
+    <mesh file="keyboard_1_collision_30.obj"/>
+  </asset>
+  <worldbody>
+    <camera name="overhead_view" mode="fixed" pos="0 -0.12 0.3" quat="0.707 0 0 -0.707" fovy="60"/>
+    <body name="keyboard_1">
+      <geom mesh="keyboard_1_0" material="GRAY50" class="visual"/>
+      <geom mesh="keyboard_1_1" material="GRAY2" class="visual"/>
+      <geom mesh="keyboard_1_2" material="MATRAGRAY" class="visual"/>
+      <geom mesh="keyboard_1_3" material="GRAY61" class="visual"/>
+      <geom mesh="keyboard_1_4" material="DARKORANGE2" class="visual"/>
+      <geom mesh="keyboard_1_5" material="GRAY94" class="visual"/>
+      <geom mesh="keyboard_1_6" material="GRAY38" class="visual"/>
+      <geom mesh="keyboard_1_7" material="YELLOW" class="visual"/>
+      <geom mesh="keyboard_1_8" material="WHITESMOKE" class="visual"/>
+      <geom mesh="keyboard_1_9" material="BLACK" class="visual"/>
+      <geom mesh="keyboard_1_collision_0" rgba="0.37025280234571756 0.02541184622643322 0.5371683510211692 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_1" rgba="0.15359992214513096 0.9512203453893971 0.8092398641776433 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_2" rgba="0.1708922421505047 0.30104228942326283 0.18536506299126387 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_3" rgba="0.4096796159999905 0.08915837429298301 0.0742749781525942 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_4" rgba="0.63381945224242 0.338828167373711 0.02697345233460746 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_5" rgba="0.35528881901693476 0.16575012438670633 0.2734718148015105 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_6" rgba="0.876801131554526 0.7168720148763204 0.7174623738195887 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_7" rgba="0.05623586971925498 0.06840095557219117 0.41191760865487126 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_8" rgba="0.21799614204201956 0.4470577124646403 0.5537768150411897 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_9" rgba="0.010845586237483107 0.0018515170579075368 0.8784495422973788 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_10" rgba="0.666269762536608 0.5452294846804815 0.46026742964406187 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_11" rgba="0.5468240028116772 0.8512557041889841 0.11771991256623382 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_12" rgba="0.20544768968643967 0.2788943076711119 0.358279002656015 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_13" rgba="0.43895072828497794 0.26415193603665577 0.9286525503335852 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_14" rgba="0.469727866933052 0.6342088219152237 0.9500015288652965 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_15" rgba="0.7458747528187891 0.982305853800671 0.9034776078085492 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_16" rgba="0.38500272820605297 0.16004989936872038 0.5539142222868018 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_17" rgba="0.6862512007226008 0.8480870522993911 0.40013072616758605 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_18" rgba="0.31649700415475823 0.3835189383584414 0.3792351589158155 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_19" rgba="0.774874210677968 0.42587993021680814 0.5291726091680287 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_20" rgba="0.4253050605383226 0.8243464822068748 0.7884415164484475 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_21" rgba="0.06412029996287405 0.2524466104742549 0.743724660848963 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_22" rgba="0.7199197296213864 0.9075662749771233 0.7792430197466498 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_23" rgba="0.0521411652817142 0.22475282128082885 0.5778420882677087 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_24" rgba="0.8162209134772382 0.9195822243131945 0.5126038700519188 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_25" rgba="0.8962166132227063 0.5626388510910407 0.7563227712694878 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_26" rgba="0.5699735960165665 0.7397132500423549 0.11825098416909474 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_27" rgba="0.4347555264671078 0.3033872421563838 0.010820969341827191 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_28" rgba="0.6064563227095185 0.8722408020381571 0.6920670172442485 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_29" rgba="0.13251666494064618 0.6158750905776097 0.14443360712815145 1" class="collision"/>
+      <geom mesh="keyboard_1_collision_30" rgba="0.5861819948915 0.8624429407180787 0.6221280746599763 1" class="collision"/>
+      <site name="sensor_site_1" type="box" pos="0.0570 0.0255 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_2" type="box" pos="0.0570 0.0065 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_3" type="box" pos="0.0570 -0.0125 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_4" type="box" pos="0.0570 -0.0315 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_5" type="box" pos="0.0570 -0.0505 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_6" type="box" pos="0.0570 -0.0695 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_7" type="box" pos="0.0570 -0.0885 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_8" type="box" pos="0.0570 -0.1075 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_9" type="box" pos="0.0570 -0.1265 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_0" type="box" pos="0.0570 -0.1455 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_-" type="box" pos="0.0570 -0.1645 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_=" type="box" pos="0.0570 -0.1835 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_Q" type="box" pos="0.0380 0.0160 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_W" type="box" pos="0.0380 -0.0030 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_E" type="box" pos="0.0380 -0.0220 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_R" type="box" pos="0.0380 -0.0410 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_T" type="box" pos="0.0380 -0.0600 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_Y" type="box" pos="0.0380 -0.0790 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_U" type="box" pos="0.0380 -0.0980 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_I" type="box" pos="0.0380 -0.1170 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_O" type="box" pos="0.0380 -0.1360 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_P" type="box" pos="0.0380 -0.1550 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_A" type="box" pos="0.0190 0.0115 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_S" type="box" pos="0.0190 -0.0075 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_D" type="box" pos="0.0190 -0.0265 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_F" type="box" pos="0.0190 -0.0455 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_G" type="box" pos="0.0190 -0.0645 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_H" type="box" pos="0.0190 -0.0835 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_J" type="box" pos="0.0190 -0.1025 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_K" type="box" pos="0.0190 -0.1215 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_L" type="box" pos="0.0190 -0.1405 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_;" type="box" pos="0.0190 -0.1595 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_'" type="box" pos="0.0190 -0.1785 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_Z" type="box" pos="0.0000 0.0000 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_X" type="box" pos="0.0000 -0.0190 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_C" type="box" pos="0.0000 -0.0380 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_V" type="box" pos="0.0000 -0.0570 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_B" type="box" pos="0.0000 -0.0760 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_N" type="box" pos="0.0000 -0.0950 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_M" type="box" pos="0.0000 -0.1140 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_," type="box" pos="0.0000 -0.1330 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_." type="box" pos="0.0000 -0.1520 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_/" type="box" pos="0.0000 -0.1710 -0.0030" size="0.0070 0.0070 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_space" type="box" pos="-0.0190 -0.0760 -0.0030" size="0.0070 0.0560 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_backspace" type="box" pos="0.0570 -0.2120 -0.0030" size="0.0070 0.0160 0.003" rgba="0.3 0.3 0.8 0.5"/>
+      <site name="sensor_site_enter1" type="box" pos="0.0190 -0.2100 -0.0030" size="0.0070 0.0185 0.003" rgba="0.3 0.3 0.8 0.5"/>
+    </body>
+  </worldbody>
+  <sensor>
+    <touch name="touch_1" site="sensor_site_1" cutoff="1000"/>
+    <touch name="touch_2" site="sensor_site_2" cutoff="1000"/>
+    <touch name="touch_3" site="sensor_site_3" cutoff="1000"/>
+    <touch name="touch_4" site="sensor_site_4" cutoff="1000"/>
+    <touch name="touch_5" site="sensor_site_5" cutoff="1000"/>
+    <touch name="touch_6" site="sensor_site_6" cutoff="1000"/>
+    <touch name="touch_7" site="sensor_site_7" cutoff="1000"/>
+    <touch name="touch_8" site="sensor_site_8" cutoff="1000"/>
+    <touch name="touch_9" site="sensor_site_9" cutoff="1000"/>
+    <touch name="touch_0" site="sensor_site_0" cutoff="1000"/>
+    <touch name="touch_-" site="sensor_site_-" cutoff="1000"/>
+    <touch name="touch_=" site="sensor_site_=" cutoff="1000"/>
+    <touch name="touch_Q" site="sensor_site_Q" cutoff="1000"/>
+    <touch name="touch_W" site="sensor_site_W" cutoff="1000"/>
+    <touch name="touch_E" site="sensor_site_E" cutoff="1000"/>
+    <touch name="touch_R" site="sensor_site_R" cutoff="1000"/>
+    <touch name="touch_T" site="sensor_site_T" cutoff="1000"/>
+    <touch name="touch_Y" site="sensor_site_Y" cutoff="1000"/>
+    <touch name="touch_U" site="sensor_site_U" cutoff="1000"/>
+    <touch name="touch_I" site="sensor_site_I" cutoff="1000"/>
+    <touch name="touch_O" site="sensor_site_O" cutoff="1000"/>
+    <touch name="touch_P" site="sensor_site_P" cutoff="1000"/>
+    <touch name="touch_A" site="sensor_site_A" cutoff="1000"/>
+    <touch name="touch_S" site="sensor_site_S" cutoff="1000"/>
+    <touch name="touch_D" site="sensor_site_D" cutoff="1000"/>
+    <touch name="touch_F" site="sensor_site_F" cutoff="1000"/>
+    <touch name="touch_G" site="sensor_site_G" cutoff="1000"/>
+    <touch name="touch_H" site="sensor_site_H" cutoff="1000"/>
+    <touch name="touch_J" site="sensor_site_J" cutoff="1000"/>
+    <touch name="touch_K" site="sensor_site_K" cutoff="1000"/>
+    <touch name="touch_L" site="sensor_site_L" cutoff="1000"/>
+    <touch name="touch_;" site="sensor_site_;" cutoff="1000"/>
+    <touch name="touch_'" site="sensor_site_'" cutoff="1000"/>
+    <touch name="touch_Z" site="sensor_site_Z" cutoff="1000"/>
+    <touch name="touch_X" site="sensor_site_X" cutoff="1000"/>
+    <touch name="touch_C" site="sensor_site_C" cutoff="1000"/>
+    <touch name="touch_V" site="sensor_site_V" cutoff="1000"/>
+    <touch name="touch_B" site="sensor_site_B" cutoff="1000"/>
+    <touch name="touch_N" site="sensor_site_N" cutoff="1000"/>
+    <touch name="touch_M" site="sensor_site_M" cutoff="1000"/>
+    <touch name="touch_," site="sensor_site_," cutoff="1000"/>
+    <touch name="touch_." site="sensor_site_." cutoff="1000"/>
+    <touch name="touch_/" site="sensor_site_/" cutoff="1000"/>
+    <touch name="touch_space" site="sensor_site_space" cutoff="1000"/>
+    <touch name="touch_backspace" site="sensor_site_backspace" cutoff="1000"/>
+    <touch name="touch_enter1" site="sensor_site_enter1" cutoff="1000"/>
+  </sensor>
+</mujoco>

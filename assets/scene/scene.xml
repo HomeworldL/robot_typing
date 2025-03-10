@@ -1,0 +1,6 @@
+<mujoco model="scene">
+    <include file="./basic_scene.xml"/>
+    <worldbody>
+        <site name='world' size='0.01'/>
+    </worldbody>
+</mujoco>

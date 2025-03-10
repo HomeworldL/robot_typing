@@ -1,0 +1,31 @@
+# 编译文件
+*.log
+*.swp
+*.pyc
+*.pyo
+*.zip
+*/files/*
+*/tmp/*
+*.hwm*
+*.cfg
+*.out
+.svn
+
+ipch
+Debug
+Release
+
+# 编辑器和系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 构建目录
+/build/
+/log/
+/install/
+
+# **/old
+**/tmp
+**/__pycache__
